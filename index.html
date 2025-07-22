@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🎬 CEOflix: All Episodes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🚀 Welcome to CEOflix</h1>
+    <p>Click any episode to begin your CEO training.</p>
+  </header>
+
+  <main>
+    <div class="button-group">
+      <button onclick="showEpisode('ep1')">📘 Episode 1: Mindset</button>
+      <button onclick="showEpisode('ep2')">🛠️ Episode 2: Tools</button>
+      <button onclick="showEpisode('ep3')">💡 Episode 3: Tips</button>
+    </div>
+
+    <section id="ep1" class="episode">
+      <h2>📘 Episode 1: Build Your Mindset</h2>
+      <p>Believe in version 1.0 of yourself — and update daily.</p>
+      <p>Failures? Nah, they're plot twists in your success story.</p>
+      <div class="back-link" onclick="goBack()">⬅️ Back</div>
+    </section>
+
+    <section id="ep2" class="episode">
+      <h2>🛠️ Episode 2: Tools of the Trade</h2>
+<p>📌 <strong>Notion</strong> – Your second brain. Plan your projects, journal your ideas, and organize your life all in one.</p>
+<p>📌 <strong>Google Calendar</strong> – Master your time like a millionaire. Block your study, rest, and grind hours.</p>
+<p>📌 <strong>Canva</strong> – Design killer resumes, pitch decks, and social media posts that scream “I’m the CEO now.”</p>
+<p>📌 <strong>ChatGPT</strong> – Your 24/7 AI teammate. Explains tough stuff, writes content, even codes — no coffee breaks required.</p>
+
+      
+      <div class="back-link" onclick="goBack()">⬅️ Back</div>
+    </section>
+
+    <section id="ep3" class="episode">
+      <h2>💡 Episode 3: CEO Tips</h2>
+      <p>🌅 Start with goals, not scrolls.</p>
+      <p>🧠 Build one skill a day.</p>
+      <p>👑 Sleep like royalty. Hustle smart, not tired.</p>
+      <div class="back-link" onclick="goBack()">⬅️ Back</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Ceo 💼 | Powered by Hustle & Code</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
